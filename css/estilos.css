@@ -85,7 +85,7 @@ header {
       text-align: center; }
     .main .acerca-de .texto .bold {
       color: #3895ea;
-      text-decoration: underline; }
+      text-decoration: none; }
 .main .trabajos {
   background: #f2f2f2;
   padding: 60px 0; }
@@ -187,7 +187,7 @@ footer .redes-sociales {
     footer .redes-sociales .contenedor .youtube:hover {
       background: #cd201f; }
     footer .redes-sociales .contenedor .github:hover {
-      background: #666666; }
+      background: #6e5494; }
     footer .redes-sociales .contenedor .instagram:hover {
       background: #3f729b; }
 
