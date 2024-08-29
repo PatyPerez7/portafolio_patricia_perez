@@ -32,7 +32,8 @@ header {
       font-size: 1em;
       display: inline-block;
       text-decoration: none;
-      border-bottom: 2px solid transparent; }
+      border-bottom: 2px solid transparent;
+      /* manera ingeniosa de resolver el saltito del subrayado */ }
       header .menu a:hover {
         border-bottom: 2px solid #fff; }
   header .contenedor-texto {
@@ -48,7 +49,7 @@ header {
       padding: 20px 60px; }
       header .contenedor-texto .texto h1, header .contenedor-texto .texto h2 {
         color: #fff;
-        font-weight: 300;
+        font-weight: 300; /* Grosor de la letra */
         margin: 0; }
       header .contenedor-texto .texto .nombre {
         margin-bottom: 10px;
@@ -60,7 +61,7 @@ header {
 
 /* ----- ----- MAIN ----- ----- */
 .main .contenedor {
-  overflow: visible; }
+  overflow: visible; /* todos los contenedores menos este están en hidden */ }
 .main .acerca-de {
   text-align: center; }
   .main .acerca-de .foto {
@@ -198,6 +199,7 @@ footer .redes-sociales {
 
   .main .trabajos .contenedor-trabajos .trabajo {
     width: 46%; } }
+
 @media screen and (max-width: 500px) {
   header .contenedor-texto .texto .nombre {
     font-size: 35px; }
@@ -205,7 +207,7 @@ footer .redes-sociales {
     font-size: 18px; }
 
   footer .redes-sociales .contenedor {
-    flex-wrap: wrap; }
+    flex-wrap: wrap; /* elementos unos debajo de otros */}
     footer .redes-sociales .contenedor a {
       padding: 20px; } }
 
